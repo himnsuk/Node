@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'mysql' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'mysql', null ]
+6 verbose cache add name=undefined spec="mysql" args=["mysql",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mysql',
+7 verbose parsed url   path: 'mysql',
+7 verbose parsed url   href: 'mysql' }
+8 silly lockFile f460c882-mysql mysql
+9 verbose lock mysql /home/himanshu/.npm/f460c882-mysql.lock
+10 silly lockFile f460c882-mysql mysql
+11 silly lockFile f460c882-mysql mysql
+12 verbose addNamed [ 'mysql', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 6df78a86-mysql mysql@
+15 verbose lock mysql@ /home/himanshu/.npm/6df78a86-mysql.lock
+16 silly addNameRange { name: 'mysql', range: '*', hasData: false }
+17 verbose request where is /mysql
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f87b79097a7ac7b0
+20 verbose url raw /mysql
+21 verbose url resolving [ 'https://registry.npmjs.org/', './mysql' ]
+22 verbose url resolved https://registry.npmjs.org/mysql
+23 verbose request where is https://registry.npmjs.org/mysql
+24 info trying registry request attempt 1 at 20:37:24
+25 verbose etag "BGWG7VR21XN4UB07ME95L8KYI"
+26 http GET https://registry.npmjs.org/mysql
+27 http 304 https://registry.npmjs.org/mysql
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sun, 20 Mar 2016 15:07:24 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     etag: '"BGWG7VR21XN4UB07ME95L8KYI"',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1458486444.175170,VS0,VE247',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/mysql from cache
+30 silly addNameRange number 2 { name: 'mysql', range: '*', hasData: true }
+31 silly addNameRange versions [ 'mysql',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.5.0',
+31 silly addNameRange     '0.6.0',
+31 silly addNameRange     '0.7.0',
+31 silly addNameRange     '0.8.0',
+31 silly addNameRange     '0.9.0',
+31 silly addNameRange     '0.9.1',
+31 silly addNameRange     '0.9.2',
+31 silly addNameRange     '0.9.3',
+31 silly addNameRange     '0.9.4',
+31 silly addNameRange     '0.9.5',
+31 silly addNameRange     '0.9.6',
+31 silly addNameRange     '2.0.0-alpha',
+31 silly addNameRange     '2.0.0-alpha2',
+31 silly addNameRange     '2.0.0-alpha3',
+31 silly addNameRange     '2.0.0-alpha4',
+31 silly addNameRange     '2.0.0-alpha5',
+31 silly addNameRange     '2.0.0-alpha6',
+31 silly addNameRange     '2.0.0-alpha7',
+31 silly addNameRange     '2.0.0-alpha8',
+31 silly addNameRange     '2.0.0-alpha9',
+31 silly addNameRange     '2.0.0-rc1',
+31 silly addNameRange     '2.0.0-rc2',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '2.0.1',
+31 silly addNameRange     '2.1.0',
+31 silly addNameRange     '2.1.1',
+31 silly addNameRange     '2.2.0',
+31 silly addNameRange     '2.3.0',
+31 silly addNameRange     '2.3.1',
+31 silly addNameRange     '2.3.2',
+31 silly addNameRange     '2.4.0',
+31 silly addNameRange     '2.4.1',
+31 silly addNameRange     '2.4.2',
+31 silly addNameRange     '2.4.3',
+31 silly addNameRange     '2.5.0',
+31 silly addNameRange     '2.5.1',
+31 silly addNameRange     '2.5.2',
+31 silly addNameRange     '2.5.3',
+31 silly addNameRange     '2.5.4',
+31 silly addNameRange     '2.5.5',
+31 silly addNameRange     '2.6.0',
+31 silly addNameRange     '2.6.1',
+31 silly addNameRange     '2.6.2',
+31 silly addNameRange     '2.7.0',
+31 silly addNameRange     '2.8.0',
+31 silly addNameRange     '2.9.0',
+31 silly addNameRange     '2.10.0',
+31 silly addNameRange     '2.10.1',
+31 silly addNameRange     '2.10.2' ] ]
+32 verbose addNamed [ 'mysql', '2.10.2' ]
+33 verbose addNamed [ '2.10.2', '2.10.2' ]
+34 silly lockFile 72f49f16-mysql-2-10-2 mysql@2.10.2
+35 verbose lock mysql@2.10.2 /home/himanshu/.npm/72f49f16-mysql-2-10-2.lock
+36 silly lockFile 72f49f16-mysql-2-10-2 mysql@2.10.2
+37 silly lockFile 72f49f16-mysql-2-10-2 mysql@2.10.2
+38 silly lockFile 6df78a86-mysql mysql@
+39 silly lockFile 6df78a86-mysql mysql@
+40 silly resolved [ { name: 'mysql',
+40 silly resolved     description: 'A node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed.',
+40 silly resolved     version: '2.10.2',
+40 silly resolved     license: 'MIT',
+40 silly resolved     author:
+40 silly resolved      { name: 'Felix Geisendörfer',
+40 silly resolved        email: 'felix@debuggable.com',
+40 silly resolved        url: 'http://debuggable.com/' },
+40 silly resolved     contributors: [ [Object], [Object], [Object] ],
+40 silly resolved     homepage: 'https://github.com/felixge/node-mysql',
+40 silly resolved     repository: { type: 'git', url: 'https://github.com/felixge/node-mysql' },
+40 silly resolved     dependencies: { 'bignumber.js': '2.1.4', 'readable-stream': '~1.1.13' },
+40 silly resolved     devDependencies:
+40 silly resolved      { eslint: '1.10.1',
+40 silly resolved        istanbul: '0.4.2',
+40 silly resolved        'require-all': '2.0.0',
+40 silly resolved        rimraf: '2.2.8',
+40 silly resolved        'timezone-mock': '0.0.0',
+40 silly resolved        mkdirp: '0.5.1',
+40 silly resolved        urun: '0.0.8',
+40 silly resolved        utest: '0.0.8' },
+40 silly resolved     files: [ 'lib/', 'Changes.md', 'License', 'Readme.md', 'index.js' ],
+40 silly resolved     engines: { node: '>= 0.6' },
+40 silly resolved     scripts:
+40 silly resolved      { lint: 'eslint lib/**/*.js index.js test/**/*.js',
+40 silly resolved        test: 'node test/run.js',
+40 silly resolved        'test-ci': 'node test/run-cov.js lcovonly',
+40 silly resolved        'test-cov': 'node test/run-cov.js' },
+40 silly resolved     gitHead: 'ecf9b62ebbba1eeb0d01a77506c2e445205b9150',
+40 silly resolved     bugs: { url: 'https://github.com/felixge/node-mysql/issues' },
+40 silly resolved     _id: 'mysql@2.10.2',
+40 silly resolved     _shasum: '9ee5e46f056b2ba3a7840a10eae3426f59384292',
+40 silly resolved     _from: 'mysql@',
+40 silly resolved     _npmVersion: '1.4.28',
+40 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+40 silly resolved     maintainers:
+40 silly resolved      [ [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object],
+40 silly resolved        [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: '9ee5e46f056b2ba3a7840a10eae3426f59384292',
+40 silly resolved        tarball: 'http://registry.npmjs.org/mysql/-/mysql-2.10.2.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/mysql/-/mysql-2.10.2.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install mysql@2.10.2 into /usr/lib
+42 info installOne mysql@2.10.2
+43 verbose lib/node_modules/mysql unbuild
+44 verbose tar unpack /home/himanshu/.npm/mysql/2.10.2/package.tgz
+45 silly lockFile 29ff5b8d-tar-usr-lib-node-modules-mysql tar:///usr/lib/node_modules/mysql
+46 verbose lock tar:///usr/lib/node_modules/mysql /home/himanshu/.npm/29ff5b8d-tar-usr-lib-node-modules-mysql.lock
+47 silly lockFile 695b1fe0-shu-npm-mysql-2-10-2-package-tgz tar:///home/himanshu/.npm/mysql/2.10.2/package.tgz
+48 verbose lock tar:///home/himanshu/.npm/mysql/2.10.2/package.tgz /home/himanshu/.npm/695b1fe0-shu-npm-mysql-2-10-2-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/mysql'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/mysql']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/mysql',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/mysql',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:108:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.19.0-56-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "mysql"
+54 error cwd /home/himanshu/Node/Tutorial
+55 error node -v v0.10.37
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/mysql
+58 error fstream_path /usr/lib/node_modules/mysql
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/mysql'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:108:15)
+65 verbose exit [ 3, true ]
